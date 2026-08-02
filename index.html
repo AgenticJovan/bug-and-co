@@ -124,8 +124,9 @@
 
   /* Hero */
   .hero{
+    min-height:100vh;
     display:flex; flex-direction:column; align-items:center; justify-content:flex-start;
-    text-align:center; padding:130px 24px 60px;
+    text-align:center; padding:130px 24px 0;
     position:relative;
   }
   .hero-glow{
@@ -164,7 +165,7 @@
   /* Trust strip (Slumber "Featured in" style) */
   .trust-strip{
     width:100%; background:var(--bg-alt); border-top:1px solid var(--border); border-bottom:1px solid var(--border);
-    padding:28px 24px; margin-top:12px;
+    padding:28px 24px; margin-top:auto;
   }
   .trust-strip .wrap{ display:flex; align-items:center; justify-content:center; gap:44px; flex-wrap:wrap; }
   .trust-label{ font-size:0.72rem; letter-spacing:0.14em; text-transform:uppercase; color:var(--text-faint); font-weight:700; margin-right:8px; }
